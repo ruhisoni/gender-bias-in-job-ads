@@ -1,6 +1,6 @@
 # Inclusive Jobs: Detecting Gender Biases in Job Advertisements
 
-Language matters. In male-dominated fields like IT and finance, the language in job advertisements can unintentionally discourage women from applying. This prototype uses interpretable natural language processing (NLP) techniques to detect and explain the gendered appeal of job ads.
+Language matters. In male-dominated fields like IT and finance, the language used in job advertisements can unintentionally discourage women from applying. This prototype uses interpretable natural language processing (NLP) techniques to detect and explain the gendered appeal of job ads.
 
 Built for the _Decoding Gender Bias in Hiring_ challenge at [Hack4Her 2025](https://hack4her.org/information), sponsored by [Randstad Digital](https://www.randstad.com/hr-services/digital/).
 
@@ -13,8 +13,6 @@ Built for the _Decoding Gender Bias in Hiring_ challenge at [Hack4Her 2025](http
 - [Reflections](#Reflections)
 - [Tech Stack](#Tech-Stack)
 - [The Team](#The-Team)
-
----
 
 ## Features
 
@@ -30,8 +28,6 @@ visualizing inclusive vs. exclusive language
 ### LIME-based local explanations for job advertisements
 Explanation.
 
----
-
 ## Datasets
 | Dataset | Description | Size | Language(s) |
 |---------|-------------|------|-------------|
@@ -39,15 +35,13 @@ Explanation.
 | `labeled_vacancies` | Real-world job ads with `women_proportion` labels from application data | 2,375 ads | English, Dutch |
 | `unlabeled_vacancies` | Real job ads with no applicant proportion data | 394 ads | English, Dutch, French, German |
 
----
-
 ## Results
 Visualizations: word cloud, LIME screenshots
 
----
-
 ## Reflections
-- note: turn all of this into a blogpost and link it here?
+
+I plan to write about this experience in a blog post. Stay tuned!
+
 - extent that this tool can help improve job ads for male-dominated jobs
 - understanding what language is considered "male-coded" and "female-coded" and why
 - our tools and techniques chosen to maximise simplicity and out-of-the-box usage
@@ -57,20 +51,18 @@ Visualizations: word cloud, LIME screenshots
   - balanced, small synthetic dataset
   - unbalanced, large dataset
 
----
-
 ## Tech Stack
-
----
+- **Python**:: Pandas, NumPy, scikit-learn, NLTK
+- **NLP Tools**: NLTK, TfidfVectorizer, Word2Vec
+- **Machine Learning**: 
+- **Explainable AI**: LIME
+- **Visualization**: Matplotlib, Seaborn, WordCloud
+- **Notebook Dev**: Google Colab + GitHub
 
 ## About Hack4Her
 [Hack4Her](https://hack4her.org/information) is the only female-focused student hackathon in the Netherlands. The fourth annual took place over the weekend of **June 13-15, 2025**.
 
 We participated in the _Decoding Gender Bias in Hiring_ challenge sponsored by [Randstad Digital](https://www.randstad.com/hr-services/digital/).
 
----
-
 ## The Team
 Emily Nadworna, Inge Martina, Ruhi Soni, Sharise Capriles
-
----
