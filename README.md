@@ -1,6 +1,12 @@
 # Inclusive Jobs: Detecting Gender Biases in Job Advertisements
 
-- [Introduction](#Introduction)
+Language matters. In male-dominated fields like IT and finance, the language in job advertisements can unintentionally discourage women from applying. This prototype uses interpretable natural language processing (NLP) techniques to detect and explain the gendered appeal of job ads.
+
+Built for the _Decoding Gender Bias in Hiring_ challenge at [Hack4Her 2025](https://hack4her.org/information), sponsored by [Randstad Digital](https://www.randstad.com/hr-services/digital/).
+
+---
+
+## Table of Contents
 - [Features](#Features)
 - [Datasets](#Datasets)
 - [Results](#Results)
@@ -8,21 +14,37 @@
 - [Tech Stack](#Tech-Stack)
 - [The Team](#The-Team)
 
-## Introduction
-Language matters. In IT and finance, the way job advertisements are written can unintentionally discourage women from applying. This machine learning prototype was designed to detect and explain the gender-based appeal of job ads using interpretable NLP techniques. This project was built for the _Decoding Gender Bias in Hiring_ challenge in the Hack4Her 2025 hackathon, sponsored by [Randstad Digital](https://www.randstad.com/hr-services/digital/).
+---
 
 ## Features
 
-- TF-IDF
-- Classification models
-- Regression models
-- Word clouds visualizing inclusive vs. exclusive language
-- LIME-based local explanations for job advertisements
+### TF-IDF
+Explanation.
+
+### Classification and regression models
+Explanation.
+
+### Word clouds
+visualizing inclusive vs. exclusive language
+
+### LIME-based local explanations for job advertisements
+Explanation.
+
+---
 
 ## Datasets
+| Dataset | Description | Size | Language(s) |
+|---------|-------------|------|-------------|
+| `synthetic_vacancies` | Synthetic ads with known `women_proportion` labels | 366 ads | English |
+| `labeled_vacancies` | Real-world job ads with `women_proportion` labels from application data | 2,375 ads | English, Dutch |
+| `unlabeled_vacancies` | Real job ads with no applicant proportion data | 394 ads | English, Dutch, French, German |
+
+---
 
 ## Results
 Visualizations: word cloud, LIME screenshots
+
+---
 
 ## Reflections
 - note: turn all of this into a blogpost and link it here?
@@ -35,10 +57,20 @@ Visualizations: word cloud, LIME screenshots
   - balanced, small synthetic dataset
   - unbalanced, large dataset
 
+---
+
 ## Tech Stack
 
+---
+
 ## About Hack4Her
-[Hack4Her](https://hack4her.org/information) is the only female-focused student hackathon in the Netherlands. The fourth annual took place over the weekend of June 13-15, 2025. Of the three possible challenges, our team took part in 
+[Hack4Her](https://hack4her.org/information) is the only female-focused student hackathon in the Netherlands. The fourth annual took place over the weekend of **June 13-15, 2025**.
+
+We participated in the _Decoding Gender Bias in Hiring_ challenge sponsored by [Randstad Digital](https://www.randstad.com/hr-services/digital/).
+
+---
 
 ## The Team
 Emily Nadworna, Inge Martina, Ruhi Soni, Sharise Capriles
+
+---
