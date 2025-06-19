@@ -13,6 +13,7 @@ Built for the _Decoding Gender Bias in Hiring_ challenge at [Hack4Her 2025](http
 - [Reflections](#Reflections)
 - [Tech Stack](#Tech-Stack)
 - [The Team](#The-Team)
+- [About Hack4Her](#About-Hack4Her)
 
 ## Features
 
@@ -52,17 +53,17 @@ I plan to write about this experience in a blog post. Stay tuned!
   - unbalanced, large dataset
 
 ## Tech Stack
-- **Python**:: Pandas, NumPy, scikit-learn, NLTK
+- **Python**:: Pandas, NumPy, scikit-learn
 - **NLP Tools**: NLTK, TfidfVectorizer, Word2Vec
 - **Machine Learning**: 
 - **Explainable AI**: LIME
 - **Visualization**: Matplotlib, Seaborn, WordCloud
-- **Notebook Dev**: Google Colab + GitHub
+- **Notebook Dev**: Google Colab, GitHub
+
+## The Team
+Emily Nadworna, Inge Martina, Ruhi Soni, Sharise Capriles
 
 ## About Hack4Her
 [Hack4Her](https://hack4her.org/information) is the only female-focused student hackathon in the Netherlands. The fourth annual took place over the weekend of **June 13-15, 2025**.
 
 We participated in the _Decoding Gender Bias in Hiring_ challenge sponsored by [Randstad Digital](https://www.randstad.com/hr-services/digital/).
-
-## The Team
-Emily Nadworna, Inge Martina, Ruhi Soni, Sharise Capriles
